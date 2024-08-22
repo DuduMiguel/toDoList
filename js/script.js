@@ -136,9 +136,9 @@ editForm.addEventListener('submit', (e) => {
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    const toDoList = document.querySelectorAll('.toDo');
-
+    
     searchInput.addEventListener('input', () => {
+        const toDoList = document.querySelectorAll('.toDo');
         const search = searchInput.value.toLowerCase();
 
         toDoList.forEach((toDo) => {
